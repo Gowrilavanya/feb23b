@@ -1,0 +1,63 @@
+#way 1
+list=[]
+n=int(input('enter n'))
+for i in range(n):
+    x=int(input())
+    list.append(x)
+print(list)
+for i in range(n-1,0,-1):
+    print(list[i])
+    
+Output 
+enter n
+
+5 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+[1, 2, 3, 4, 5] 
+5 
+4 
+3 
+2 
+1
+#way2
+list=[]
+n=int(input('enter n'))
+for i in range(n):
+    x=int(input())
+    list.append(x)
+print(list)
+list.reverse()
+print("list in reverse order",list)
+    
+Output
+enter n
+
+6 
+
+1 
+
+76 
+
+90 
+
+54 
+
+28 
+
+9234 
+
+[1, 76, 90, 54, 28, 9234] 
+list in reverse order [9234, 28, 54, 90, 76, 1] 
+
+
+
